@@ -93,8 +93,8 @@
 				var kwr=document.getElementById('KWR').value;
 				var sqft=document.getElementById('sqft').value;
 
-   			 	var totalenergy=parseInt(TV)*0.15+parseInt(AC)*3+parseInt(dish)*1.8+parseInt(oven)*2.3+parseInt(fridge)*0.4+parseInt(laundry)*0.5+parseInt(comp)*0.15+parseInt(lit)*parseInt(litnum)*0.06;
-				var sum = parseInt((parseInt(TV)*0.15 + parseInt(AC)*3 + parseInt(dish)*1.8+ parseInt(oven)*2.3 + parseInt(fridge)*0.4 + parseInt(laundry)*0.5 + parseInt(comp)*0.15 + parseInt(lit)*0.06*parseInt(litnum))*parseFloat(kwr)*30);
+   			 	var totalenergy=parseFloat(TV)*0.15+parseFloat(AC)*3+parseFloat(dish)*1.8+parseFloat(oven)*2.3+parseFloat(fridge)*0.4+parseFloat(laundry)*0.5+parseFloat(comp)*0.15+parseFloat(lit)*parseFloat(litnum)*0.06;
+				var sum = parseInt((parseFloat(TV)*0.15 + parseFloat(AC)*3 + parseFloat(dish)*1.8+ parseFloat(oven)*2.3 + parseFloat(fridge)*0.4 + parseFloat(laundry)*0.5 + parseFloat(comp)*0.15 + parseFloat(lit)*0.06*parseFloat(litnum))*parseFloat(kwr)*30);
     				var diff =sqft*0.06
 				var potat=""
 				
